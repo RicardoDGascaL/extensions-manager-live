@@ -1,9 +1,11 @@
+import { Header } from "./components/Header"
+
 function App() {
 
   return (
-    <>
-      <h1>Ricardo Gasca</h1>
-    </>
+    <main className="light-gradient min-h-screen">
+      <Header/>
+    </main>
   )
 }
 
